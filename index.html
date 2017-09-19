@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>获取</title>
+	<link rel="stylesheet" href="index.css">
+	<script src='index.js'></script>
+</head>
+<body>
+<div class="box"></div>
+<div id="box"></div>
+<div id="box"></div>
+	<script>
+		window.onload=function(){
+			$('#box').innerHTML='ID';
+			$('.box')[0].innerHTML='CLASS';
+			var tag=$('div');
+			console.log(tag.length);
+		}
+	</script>
+</body>
+</html>
